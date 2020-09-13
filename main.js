@@ -16,3 +16,13 @@ const start = timer();
 
 setInterval(start, 1000);
 /////////////////////////////////////////////////////////////////////////
+
+const actualTime = () => {
+const time = Date();
+const sec = time.getSeconds()
+const min = time.getSeconds()
+const hor = time.getSeconds()
+
+document.querySelector("span").textContent = `${sec}:${min}:${hor}`;
+
+}
