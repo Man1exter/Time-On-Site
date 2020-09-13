@@ -19,11 +19,11 @@ setInterval(start, 1000);
 /////////////////////////////////////////////////////////////////////////
 
 const actualTime = () => {
-const time = Date();
-const sec = time.getSeconds()
-const min = time.getSeconds()
-const hor = time.getSeconds()
+const time = new Date();
+const sec = time.getSeconds() < 10 ? "0" + time.getSeconds() : time.getSeconds();
+const min = time.getMinutes() < 10 ? "0" + time.Minutes() : time.getMinutes();
+const hor = time.getHours() < 10 ? "0" + time.getHours() : time.getHours();
 
-document.querySelector("span").textContent = `${sec}:${min}:${hor}`;
+document.querySelector(".clock span").textContent = `${hor}:${min}:${sec}`;
 
 }
