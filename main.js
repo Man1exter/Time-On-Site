@@ -1,14 +1,15 @@
 const timer = () => {
     let time = 0;
-    document.body.textContent =  0  + " is a time, spent on the site";
-    document.body.style.color = "yellow"
-    document.body.style.fontSize = 34 + "px"; 
-    document.body.style.textAlign = "center";
-    document.body.style.lineHeight = 100 + "px"
+    const dev = document.querySelector(".dev");
+    dev.textContent =  0  + " is a time, spent on the site";
+    dev.style.color = "yellow"
+    dev.style.fontSize = 40 + "px"; 
+    dev.style.textAlign = "center";
+    dev.style.lineHeight = 100 + "px"
 
     const addSeconds = () => {
         time++;
-        document.body.textContent = time + " is a time, spent on the site";
+        dev.textContent = time + " is a time, spent on the site";
     }
     return addSeconds;
 }

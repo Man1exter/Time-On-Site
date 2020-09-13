@@ -5,3 +5,17 @@
 body{
     background-color: gray;
 }
+.clock{
+    position: absolute;
+    border: 2px solid black;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+}
+span{
+    color: black;
+}
