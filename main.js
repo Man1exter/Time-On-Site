@@ -25,5 +25,5 @@ const min = time.getMinutes() < 10 ? "0" + time.Minutes() : time.getMinutes();
 const hor = time.getHours() < 10 ? "0" + time.getHours() : time.getHours();
 
 document.querySelector(".clock span").textContent = `${hor}:${min}:${sec}`;
-
 }
+setInterval(actualTime, 1000);

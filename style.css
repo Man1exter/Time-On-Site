@@ -7,15 +7,24 @@ body{
 }
 .clock{
     position: absolute;
-    border: 2px solid black;
+    border: 4px solid black;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
     width: 500px;
-    height: 100px;
+    height: 150px;
     background-color: white;
+    transition: .3s linear;
 }
 span{
     color: black;
+    font-size: 100px;
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+.clock:hover{
+    background-color: yellow;
+    border: 4px solid green;
 }
