@@ -29,3 +29,12 @@ document.querySelector(".clock span").textContent = `${hor}:${min}:${sec}`;
 setInterval(actualTime, 1000);
 ///////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
+
+const birthDay = new Date().getTime();
+
+const day = document.querySelector(".day");
+const hr = document.querySelector(".hr");
+const min = document.querySelector(".min");
+const sc = document.querySelector(".sc");
+
+
