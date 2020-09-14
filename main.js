@@ -37,4 +37,12 @@ const hr = document.querySelector(".hr");
 const min = document.querySelector(".min");
 const sc = document.querySelector(".sc");
 
+setInterval(()=>{
+    const actuallyTime = new Date().getTime();
+    const time = birthDay - actualTime;
 
+    const day = Math.floor((birthDay/1000 * 60 * 60 * 24))
+    const hr = Math.floor((birthDay/1000 * 60 * 60 ))
+    const min = Math.floor((birthDay/1000 * 60 ))
+    const sc = Math.floor((birthDay/1000 ))
+})
