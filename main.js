@@ -41,13 +41,13 @@ setInterval(()=>{
     const actuallyTime = new Date().getTime();
     const time = birthDay - actuallyTime;
 
-    const dayCalc = Math.floor((birthDay/(1000 * 60 * 60 * 24)) - (actualTime/(1000 * 60 * 60 * 24)))
+    const dayCalc = Math.floor((birthDay/(1000 * 60 * 60 * 24)) - (actuallyTime/(1000 * 60 * 60 * 24)))
     
-    const hrCalc = Math.floor((birthDay/(1000 * 60 * 60 * 24)) - (actualTime/(1000 * 60 * 60 * 24)))
+    const hrCalc = Math.floor((birthDay/(1000 * 60 * 60 * 24)) - (actuallyTime/(1000 * 60 * 60 * 24)))
     
-    const minCalc = Math.floor((birthDay/(1000 * 60 * 60 * 24)) - (actualTime/(1000 * 60 * 60 * 24)))
+    const minCalc = Math.floor((birthDay/(1000 * 60 * 60 * 24)) - (actuallyTime/(1000 * 60 * 60 * 24)))
     
-    const scCalc = Math.floor((birthDay/(1000 * 60 * 60 * 24)) - (actualTime/(1000 * 
+    const scCalc = Math.floor((birthDay/(1000 * 60 * 60 * 24)) - (actuallyTime/(1000 * 
     60 * 60 * 24)))
 
     day.textContent = dayCalc;
