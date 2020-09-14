@@ -55,7 +55,7 @@ section:hover{
     margin-left: 20px;
     position: relative;
     top: 50%;
-    left: 15%;
+    left: 11%;
     transform: translate(-50%, -50%);
     color: blueviolet;
 }
@@ -72,9 +72,9 @@ h1:hover{
     color: blue;
 }
 .D,.H,.M,.S{
-    font-size: 40px;
+    font-size: 50px;
     position: relative;
-    top: 27%;
-    left: 8%;
+    top: 30%;
+    left: 4.5%;
     margin-left: 20px;
 }
