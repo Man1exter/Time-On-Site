@@ -30,7 +30,7 @@ setInterval(actualTime, 1000);
 ///////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 
-const birthDay = new Date().getTime('2021-08-21 09:00:00');
+const birthDay = new Date('2021-08-21 09:00:00').getTime();
 
 const daySec = document.querySelector(".day");
 const hr = document.querySelector(".hr");
@@ -39,16 +39,15 @@ const sc = document.querySelector(".sc");
 
 setInterval( () => {
     const actuallyTime = new Date().getTime();
-    const timer = birthDay - actuallyTime;
+    const timeX = birthDay - actuallyTime;
 
     const dayCalc = Math.floor((birthDay/(1000 * 60 * 60 * 24)) - (actuallyTime/(1000 * 60 * 60 * 24)));
     
     const hrCalc = Math.floor((birthDay/(1000 * 60 * 60) - actuallyTime/(1000 * 60 * 60)) % 24);
     
-    const minCalc = Math.floor((birthDay/(1000 * 60 * 60 * 24)) - (actuallyTime/(1000 * 60 * 60 * 24)));
+    const minCalc = Math.floor((birthDay / (1000 * 60) - actuallyTime / (1000 * 60)) % 60);
     
-    const scCalc = Math.floor((birthDay/(1000 * 60 * 60 * 24)) - (actuallyTime/(1000 * 
-    60 * 60 * 24)));
+    const scCalc = Math.floor((birthDay / 1000 - actuallyTime / 1000) % 60);
 
     daySec.textContent = dayCalc;
     hr.textContent = hrCalc;

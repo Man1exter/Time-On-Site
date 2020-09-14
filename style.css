@@ -51,12 +51,13 @@ section:hover{
 .sc{
     color: black;
     display: inline-block;
-    font-size: 40px;
-    margin-left: 40px;
+    font-size: 50px;
+    margin-left: 20px;
     position: relative;
     top: 50%;
-    left: 15%;
+    left: 30%;
     transform: translate(-50%, -50%);
+    color: blueviolet;
 }
 h1{
     position: absolute;
@@ -65,6 +66,7 @@ h1{
     transform: translate(-50%, -50%);
     font-size: 50px;
     transition: .3s linear;
+    
 }
 h1:hover{
     color: blue;
