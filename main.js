@@ -90,3 +90,20 @@ setInterval( () => {
 // }
 
 // else if complete //
+
+// const promo = '20';
+// switch(promo){
+//     case '10':
+//     break;
+
+//     case '20':
+//         console.log("tak to ta promka")
+//         break;
+        
+//         case '30':
+//             break;
+
+//             default:console.log('sorka')
+// }
+
+// switch case break done//
