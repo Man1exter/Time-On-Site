@@ -77,3 +77,16 @@ setInterval( () => {
 // }
 
 //else and if //
+
+// const x = 100;
+// const y = 50;
+
+// if(y > x){
+//     console.log("of course");
+// } else if(x === y) {
+//     console.log("nie jest równy")
+// } else  {
+//     console.log("not now")
+// }
+
+// else if complete //
