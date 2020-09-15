@@ -68,3 +68,12 @@ setInterval( () => {
 // }
 //// if ////////
 
+// const color = "blue";
+// const newColor = "green";
+// if(color === newColor){
+// console.log('yes');
+// } else {
+//     console.log('no');
+// }
+
+//else and if //
