@@ -107,3 +107,8 @@ setInterval( () => {
 // }
 
 // switch case break done//
+
+// const x = 10;
+
+// console.log((x%2===0) ? 'podzielne' : 'nie podzielne')
+//operator warunkowy // 
