@@ -112,3 +112,17 @@ setInterval( () => {
 
 // console.log((x%2===0) ? 'podzielne' : 'nie podzielne')
 //operator warunkowy // 
+
+// const x = 50;
+// let $txt;
+
+// if(x >= 100){
+//     $txt = 'its ok';
+// } else if ( x < 100 && x > 30){
+//     $txt = "mid";
+// } else {
+//     $txt = "small"
+// }
+// console.log($txt.toUpperCase())
+
+// complete exercises next kek ////
