@@ -134,3 +134,8 @@ setInterval( () => {
 // }
 
 // complete for let i i i exercises
+// let x = 0;
+// while(x <= 10){
+//     console.log(x);
+//     x += 2; // x = x + 2
+// }
