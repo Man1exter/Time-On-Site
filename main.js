@@ -126,3 +126,11 @@ setInterval( () => {
 // console.log($txt.toUpperCase())
 
 // complete exercises next kek ////
+
+// const cities = ['Warsaw','Kraków','Wroclaw']
+
+// for (let i = 0; i < 1; i++) {
+//     console.log(`This is my cities ${cities[0]}`)
+// }
+
+// complete for let i i i exercises
