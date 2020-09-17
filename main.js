@@ -149,3 +149,8 @@ setInterval( () => {
 // console.log(`${x}`)
 
 // do ... while complete stack
+
+// const items = [5, 8, 10, 23, 48, 60];
+//  for(let item of items){
+//      console.log(item / 5)
+//  } //arrays is not fund beacuse i had use them
