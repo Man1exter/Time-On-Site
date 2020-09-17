@@ -144,7 +144,8 @@ setInterval( () => {
 // let x = 20;
 // do{
 //     console.log(`${x}`)
-//     --x;
+//     x -= 3
 // } while(x>0)
+// console.log(`${x}`)
 
 // do ... while complete stack
