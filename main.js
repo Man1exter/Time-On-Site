@@ -139,3 +139,12 @@ setInterval( () => {
 //     console.log(x);
 //     x += 2; // x = x + 2
 // }
+
+
+// let x = 20;
+// do{
+//     console.log(`${x}`)
+//     --x;
+// } while(x>0)
+
+// do ... while complete stack
