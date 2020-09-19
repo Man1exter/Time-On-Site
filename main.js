@@ -161,3 +161,9 @@ setInterval( () => {
 //     }
 
 //     // section copmplete 5/5 mm
+
+// const colors = ["green", "red", "yellow"];
+//  colors.unshift("blue");
+//  console.log(colors)
+
+// complete unshift with arrays
