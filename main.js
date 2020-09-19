@@ -163,7 +163,11 @@ setInterval( () => {
 //     // section copmplete 5/5 mm
 
 // const colors = ["green", "red", "yellow"];
+// const newColor = colors;
+// newColor.pop("yellow")
+// console.log(newColor)
 //  colors.unshift("blue");
 //  console.log(colors)
 
 // complete unshift with arrays
+//complete shift / pop / push exercises done
