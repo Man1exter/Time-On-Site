@@ -150,14 +150,14 @@ setInterval( () => {
 
 // do ... while complete stack
 
-const items = [5, 8, 10, 23, 48, 60];
- for(let item of items){
-     if( item % 2 === 0){
-         console.log(`yes ${item}`);
-     } else {
-         console.log(`no ${item}`);
-     }
-    //  console.log(item / 5)
-    }
+// const items = [5, 8, 10, 23, 48, 60];
+//  for(let item of items){
+//      if( item % 2 === 0){
+//          console.log(`yes ${item}`);
+//      } else {
+//          console.log(`no ${item}`);
+//      }
+//     //  console.log(item / 5)
+//     }
 
-    // section copmplete 5/5 mm
+//     // section copmplete 5/5 mm
