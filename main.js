@@ -190,3 +190,11 @@ setInterval( () => {
 // console.log(xy);
 
 // add two raays in one 
+
+// const x = [1,2,3];
+// const y = [4,5,6];
+
+// const xy =[...x,...y];
+// console.log(xy)
+
+// add spread arreays in one ...[]
