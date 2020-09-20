@@ -180,3 +180,13 @@ setInterval( () => {
 // console.log(numbers)
 
 // complete 51 exercises
+
+
+
+// const x = ["mice", "mouse"];
+// const y = ["elephant", "trans"];
+
+// const xy = x.concat(y);
+// console.log(xy);
+
+// add two raays in one 
