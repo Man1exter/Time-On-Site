@@ -171,3 +171,10 @@ setInterval( () => {
 
 // complete unshift with arrays
 //complete shift / pop / push exercises done
+
+
+// const numbers = [];
+// const newNumbers = numbers;
+
+// numbers.push("dwa");
+// console.log(numbers)
