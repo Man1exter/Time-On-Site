@@ -37,7 +37,7 @@ height: 150px;
 top: 60%;
 left: 50%;
 transform: translate(-50%, -50%);
-background-color: #fff;
+background-color:lightblue;
 transition: .3s linear;
 border-radius: 20px;
 }
