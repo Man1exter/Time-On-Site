@@ -207,3 +207,13 @@ setInterval( () => {
 // });
 
 // forEach with arrays complete done
+
+// const colors = ["yellow"];
+//   colors.unshift(" red");
+//   colors.push(" pink");
+
+// for (let i = 0; i < colors.length ; i++){
+//     console.log(`favorite color: ${colors[i].toUpperCase()}`)
+// }
+
+// complete array with for let and inx colors to add in one
