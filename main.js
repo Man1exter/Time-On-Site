@@ -198,3 +198,12 @@ setInterval( () => {
 // console.log(xy)
 
 // add spread arreays in one ...[]
+
+
+
+// const numbers = [1,2,3,4,5,6,7,8,9,10]
+// const newNumbers = numbers.forEach(ele => {
+//     console.log(ele * 5)
+// });
+
+// forEach with arrays complete done
