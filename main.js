@@ -220,5 +220,14 @@ setInterval( () => {
 ////////// s p a c e w i t h exercises
 
 const names = "Audi, Mercedes, BMW, Nissan, Dodge";
-const arrays = [names];
-console.log((names.length > 3) ? "jest OK" : "Nie jest OK")
+const arrays = names.split(", ");
+
+console.log((names.length > 3) ? "jest OK" : "Nie jest OK");
+
+
+if (arrays.includes("Audi")) {
+    console.log("INCLUDES AUDI")
+    arrays.push("LAMBOOO")
+} else {
+    console.log("DH AUDI");
+}
