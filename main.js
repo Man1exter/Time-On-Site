@@ -218,3 +218,7 @@ setInterval( () => {
 
 // complete array with for let and inx colors to add in one
 ////////// s p a c e w i t h exercises
+
+const names = "Audi, Mercedes, BMW, Nissan, Dodge";
+const arrays = [names];
+console.log((names.length > 3) ? "jest OK" : "Nie jest OK")
