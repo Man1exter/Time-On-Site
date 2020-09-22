@@ -230,4 +230,6 @@ if (arrays.includes("Audi")) {
     arrays.push("LAMBOOO")
 } else {
     console.log("DH AUDI");
-}
+} 
+
+// if ( let )// e.t.c upper case with [i] index
