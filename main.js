@@ -233,3 +233,5 @@ if (arrays.includes("Audi")) {
 } 
 
 // if ( let )// e.t.c upper case with [i] index
+
+/////////// space to start with function  /s 
