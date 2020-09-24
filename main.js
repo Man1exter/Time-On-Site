@@ -238,23 +238,23 @@ setInterval( () => {
 /////////// space to start with function  /s  /////////////////
 ////////////////////////////////////////////////////////////
 
-let $score;
+// let $score;
 
-const sum = (x,y) => {
-  $score = x + y;
-};
-
-if($score % 2 === 0){
-    plus()
-} else {
-    minus()
-}
+// const sum = (x,y) => {
+//   $score = x + y;
 
 
-function plus(){
-    console.log(`PARZYSTA ${$score}`);
-} 
-function minus(){
-    console.log(`NIEPARZYSTA ${$score}`);
-};
-sum();
+// if($score % 2 === 0){
+//     plus();
+// } else {
+//     minus();
+// }
+// };
+
+// function plus(){
+//     console.log(`PARZYSTA ${$score}`);
+// };
+// function minus(){
+//     console.log(`NIEPARZYSTA ${$score}`);
+// };
+// sum(1000,6555);
