@@ -240,8 +240,21 @@ setInterval( () => {
 
 let $score;
 
-function add(x,y){
-return x + y;
+const sum = (x,y) => {
+  $score = x + y;
+};
 
+if($score % 2 === 0){
+    plus()
+} else {
+    minus()
 }
-add();
+
+
+function plus(){
+    console.log(`PARZYSTA ${$score}`);
+} 
+function minus(){
+    console.log(`NIEPARZYSTA ${$score}`);
+};
+sum();
