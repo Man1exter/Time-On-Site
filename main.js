@@ -219,21 +219,28 @@ setInterval( () => {
 // complete array with for let and inx colors to add in one
 ////////// s p a c e w i t h exercises
 
-const names = "Audi, Mercedes, BMW, Nissan, Dodge";
-const arrays = names.split(", ");
+// const names = "Audi, Mercedes, BMW, Nissan, Dodge";
+// const arrays = names.split(", ");
 
-console.log((names.length > 3) ? "jest OK" : "Nie jest OK");
+// console.log((names.length > 3) ? "jest OK" : "Nie jest OK");
 
 
-if (arrays.includes("Audi")) {
-    console.log("INCLUDES AUDI")
-    arrays.push("LAMBOOO")
-} else {
-    console.log("DH AUDI");
-} 
+// if (arrays.includes("Audi")) {
+//     console.log("INCLUDES AUDI")
+//     arrays.push("LAMBOOO")
+// } else {
+//     console.log("DH AUDI");
+// } 
 
 // if ( let )// e.t.c upper case with [i] index
 
 //////////////////////////////////////////////////////////////
 /////////// space to start with function  /s  /////////////////
 ////////////////////////////////////////////////////////////
+
+let $score;
+
+function add(x,y){
+return x + y;
+}
+add();
