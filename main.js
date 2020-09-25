@@ -278,3 +278,12 @@ setInterval( () => {
 
 //////////////////////////
 ///////////////////////////////////////
+
+// let num = 10;
+// let numbers = [];
+
+// for(let i = 0; i < num; i++){
+// numbers++
+// console.log(numbers)
+// }
+// done array with for
