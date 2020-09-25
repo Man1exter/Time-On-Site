@@ -265,12 +265,12 @@ setInterval( () => {
 
 
 //konwerter ! :) fahrent na celc
-let $celsius;
-let $temp;
+// let $celsius;
+// let $temp;
 
-const fahrenheit = (arg) => {
-$celsius = arg;
-$temp = ($celsius * 1.8 + 32);
-};
-fahrenheit()
-console.log(`${$celsius} to ${$temp}`);
+// const fahrenheit = (arg) => {
+// $celsius = arg;
+// $temp = ($celsius * 1.8 + 32);
+// };
+// fahrenheit()
+// console.log(`${$celsius} to ${$temp}`);
