@@ -268,6 +268,6 @@ let $temp;
 const fahrenheit = (arg) => {
 $celsius = arg;
 $temp = ($celsius * 1.8 + 32);
-}
+};
 fahrenheit()
-console.log(`${$celsius} to ${$temp}`)
+console.log(`${$celsius} to ${$temp}`);
