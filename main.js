@@ -279,33 +279,26 @@ setInterval( () => {
 //////////////////////////
 ///////////////////////////////////////
 
-let num = 10;
-let numbers = [];
+// let num = 10;
+// let numbers = [];
 
-for(let i = 0; i < num; i++){
-numbers++;
-console.log(numbers);
-};
-
-
-
-const letMe = (ele) => {
-    if(ele % 3 === 0){
-      nice();
-    } else{
-        good();
-    }
-}
+// for(let i = 0; i < num; i++){
+// numbers.push(i);
+// console.log(numbers);
+// };
 
 
-const nice = () =>{
-    console.log(`parzysta ${numbers[i]}`);
-}
-const good = () =>{
-    console.log(`nie parzysta ${numbers[i]}`);
-}
+
+// const letMe = numbers => {
+//     if(numbers % 3 === 0){
+//         console.log(`is ok ${numbers}`)
+//     } else {
+//         console.log(`isn't ok ${numbers}`)
+//     }
+// }
+// const exec = numbers.forEach(letMe);
 // done array with for
-
+// .. done complete fiunish murillo
 
 
 
