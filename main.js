@@ -305,9 +305,9 @@ setInterval( () => {
 const ulList = document.createElement('ul');
 document.body.appendChild(ulList);
 
-for(let i = 0; i < 3; i++){
+for(let i = 1; i < 4; i++){
     const liList = document.createElement('li');
-    ulList.appendChild(liList).textContent = "1"
+    ulList.appendChild(liList).textContent = i;
 }
 
 
