@@ -312,6 +312,7 @@ for(let i = 1; i < numbers; i++){
     ulList.appendChild(liList).textContent = i;
     liList.style.fontSize = `${size}px`
 }
+const lastLi = document.querySelector('li:last-child');
 
 
 
