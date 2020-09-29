@@ -304,11 +304,15 @@ setInterval( () => {
 
 const ulList = document.createElement('ul');
 document.body.appendChild(ulList);
+let numbers = 8;
+let size = 30;
 
-for(let i = 1; i < 4; i++){
+for(let i = 1; i < numbers; i++){
     const liList = document.createElement('li');
     ulList.appendChild(liList).textContent = i;
+    liList.style.fontSize = `${size}px`
 }
+
 
 
 
