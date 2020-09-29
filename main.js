@@ -319,15 +319,16 @@ setInterval( () => {
 
 const firstBtn = document.querySelector(".clicker");
 const secondBtn = document.querySelector(".clickers");
-const pen = document.querySelector("p")
+const pen = document.querySelector(".pen")
 
 
-const show = () => {
-    pen.classList.add(show);
+const showen = () => {
+    pen.classList.add("show");
+    pen.classList.remove("hide");
 };
-firstBtn.addEventListener("click", show);
-
-const hide = () => {
-    pen.classList.add(hide);
+const hiden = () => {
+    pen.classList.add("hide");
+    pen.classList.remove("show");
 };
-secondBtn.addEventListener("click", hide);
+firstBtn.addEventListener("click", showen);
+secondBtn.addEventListener("click", hiden);
