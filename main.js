@@ -313,7 +313,7 @@ for(let i = 1; i < numbers; i++){
     liList.style.fontSize = `${size}px`
 }
 const lastLi = document.querySelector('li:last-child');
-
+lastLi.innerHTML = "OSTATNI";
 
 
 
