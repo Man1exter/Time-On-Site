@@ -78,3 +78,8 @@ h1:hover{
     left: 4.5%;
     margin-left: 20px;
 }
+
+.clicker,
+.clickers{
+    font-size: 50px;
+}
