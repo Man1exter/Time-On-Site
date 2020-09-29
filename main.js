@@ -302,18 +302,19 @@ setInterval( () => {
 
 
 
-const ulList = document.createElement('ul');
-document.body.appendChild(ulList);
-let numbers = 8;
-let size = 30;
+// const ulList = document.createElement('ul');
+// document.body.appendChild(ulList);
+// let numbers = 8;
+// let size = 30;
 
-for(let i = 1; i < numbers; i++){
-    const liList = document.createElement('li');
-    ulList.appendChild(liList).textContent = i;
-    liList.style.fontSize = `${size}px`
-}
-const lastLi = document.querySelector('li:last-child');
-lastLi.innerHTML = "OSTATNI";
+// for(let i = 1; i < numbers; i++){
+//     const liList = document.createElement('li');
+//     ulList.appendChild(liList).textContent = i;
+//     liList.style.fontSize = `${size}px`
+// }
+// const lastLi = document.querySelector('li:last-child');
+// lastLi.innerHTML = "OSTATNI";
 
+////////////////////////////////////////////////////
 
 
