@@ -322,5 +322,11 @@ const secondBtn = document.querySelector(".clickers");
 
 
 const show = () => {
-    firstBtn
-}
+    firstBtn.classList.add(show);
+};
+firstBtn.addEventListener("click", show);
+
+const hide = () => {
+    secondBtn.classList.add(hide);
+};
+secondBtn.addEventListener("click", hide);
