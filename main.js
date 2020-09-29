@@ -306,7 +306,8 @@ const ulList = document.createElement('ul');
 document.body.appendChild(ulList);
 
 for(let i = 0; i < 3; i++){
-    
+    const liList = document.createElement('li');
+    ulList.appendChild(liList).textContent = "1"
 }
 
 
