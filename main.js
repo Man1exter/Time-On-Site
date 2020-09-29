@@ -317,4 +317,10 @@ setInterval( () => {
 
 ////////////////////////////////////////////////////
 
+const firstBtn = document.querySelector(".clicker");
+const secondBtn = document.querySelector(".clickers");
 
+
+const show = () => {
+    firstBtn
+}

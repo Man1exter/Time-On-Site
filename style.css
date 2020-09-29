@@ -94,3 +94,20 @@ h1:hover{
     background-color: orange;
     border: 3px solid blue;
 }
+p{
+    font-size: 40px;
+    margin-left: 70px;
+    margin-top: 100px;
+    color: brown;
+    transition: .3s linear;
+    cursor: pointer;
+}
+p:hover{
+    color: darkblue;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
