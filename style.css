@@ -111,3 +111,8 @@ p:hover{
 .show{
     display: block;
 }
+.toggle{
+    font-size: 40px;
+    margin-left: 80px;
+    cursor: pointer;
+}
