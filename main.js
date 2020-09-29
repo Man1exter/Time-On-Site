@@ -320,6 +320,7 @@ setInterval( () => {
 const firstBtn = document.querySelector(".clicker");
 const secondBtn = document.querySelector(".clickers");
 const pen = document.querySelector(".pen")
+const toggler = document.querySelector(".toggle");
 
 
 const showen = () => {
@@ -330,5 +331,9 @@ const hiden = () => {
     pen.classList.add("hide");
     pen.classList.remove("show");
 };
+const togglen = () => {
+    pen.classList.toggle("hide");
+}
 firstBtn.addEventListener("click", showen);
 secondBtn.addEventListener("click", hiden);
+toggler.addEventListener("click", togglen);

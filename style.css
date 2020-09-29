@@ -97,7 +97,7 @@ h1:hover{
 p{
     font-size: 40px;
     margin-left: 70px;
-    margin-top: 70px;
+    margin-top: 10px;
     color: brown;
     transition: .3s linear;
     cursor: pointer;
@@ -115,4 +115,12 @@ p:hover{
     font-size: 40px;
     margin-left: 80px;
     cursor: pointer;
+    transition: .3s linear;
+    border: 3px solid yellow;
+    background-color: blue;
+    color: white;
+}
+.toggle:hover{
+    background-color: green;
+    border: 3px solid orange;
 }
